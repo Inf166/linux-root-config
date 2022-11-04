@@ -6,6 +6,7 @@ sudo apt-get update && apt-get upgrade -y;
 sudo apt install git; # For loading plugins
 sudo apt install exuberant-ctags; # For tagbar
 sudo apt install xsel; # copy and paste inside vim
+sudo apt install --yes -- python3-venv; # For coq
 
 # Install neovim
 sudo apt install neovim;
