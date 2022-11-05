@@ -8,5 +8,5 @@ if ! type fortune > /dev/null; then
 elif ! type cowsay > /dev/null; then
   echo '[babasbot/fortune-cowsay-zsh] depends on cowsay which is not installed.'
 else
-  fortune | cowsay -f alpaka
+  fortune | cowsay -f alpaca
 fi
